@@ -10,6 +10,10 @@ I build AI agents for enterprise clients at Tenarai: Copilot Studio agents, MCP 
 - **Power Platform:** Power Apps (canvas and model-driven), Power Automate, Dataverse, custom connectors, DLP, CoE Starter Kit, ALM, Dynamics 365
 - **Code and cloud:** Python, TypeScript, React, Node.js, Azure Functions, Entra ID, Google Cloud Run
 
+## Open source
+
+- **[Power Platform Governance MCP Server](https://github.com/kellycjones/power-platform-governance-mcp):** lets AI agents in Claude, VS Code or Copilot Studio answer Power Platform governance questions (DLP, environments, CoE Starter Kit, ALM) from Microsoft's docs, citing the exact section. Hybrid keyword and semantic search runs locally, and a labeled evaluation shows the right page first 89% of the time, ahead of either method alone. TypeScript, MCP SDK, transformers.js.
+
 ## Recent client work
 
 The code belongs to the clients, so here is what each project does.
@@ -18,7 +22,7 @@ The code belongs to the clients, so here is what each project does.
 - **Workfront process assistant (Microsoft).** A role-aware Copilot Studio agent covering 20 Workfront process areas, with adaptive-card role selection, satisfaction checks and knowledge-gap logging to Dataverse.
 - **AEM content migration agent skills (Adobe).** Prompt templates and reusable agent skills for Adobe Experience Manager page migrations, which cut prompt troubleshooting from about 4 hours to 30 minutes per page.
 
-## Personal projects (private repos)
+## Other projects (private repos)
 
 - **KORB HQ:** the operations app I run my agency on. CRM, sales pipeline, finances and per-client roadmaps, with a weekly AI briefing. React, Express and SQLite.
 - **Realmfall:** a Warcraft-style real-time strategy game in Unreal Engine 5, written in C++.
