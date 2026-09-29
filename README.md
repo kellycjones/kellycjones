@@ -13,6 +13,7 @@ I build AI agents for enterprise clients at Tenarai: Copilot Studio agents, MCP 
 ## Open source
 
 - **[Power Platform Governance MCP Server](https://github.com/kellycjones/power-platform-governance-mcp):** lets AI agents in Claude, VS Code or Copilot Studio answer Power Platform governance questions (DLP, environments, CoE Starter Kit, ALM) from Microsoft's docs, citing the exact section. Hybrid keyword and semantic search runs locally, and a labeled evaluation shows the right page first 89% of the time, ahead of either method alone. TypeScript, MCP SDK, transformers.js.
+- **[CoE Governance Assistant for Copilot Studio](https://github.com/kellycjones/copilot-studio-governance-agent):** a Copilot Studio agent that answers makers' governance questions through that MCP server, adapts to their role, takes new-environment requests through an Adaptive Card and a Power Automate approval saved to Dataverse, and logs unanswered questions for the CoE team. A validator checks every card, topic, flow and Dataverse table against the others.
 
 ## Recent client work
 
